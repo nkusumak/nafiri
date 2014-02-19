@@ -46,10 +46,12 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  height:100%;
 }
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+  height:100%;
 }
 
 /* Padding for spacing */
