@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Front End Developer Analysis</title>
+		<h1><font size="32"><font face = "helvetica">Directory</font></font></h1>
+		<hr>
+	</head>
+	<body>
+		<table class="table">
+			<tbody>
+				<?php
+					$contact = array("Zack"=>"Rosenfeld","Andrew"=>"Dieterich");
+					foreach($contact as $first=>$last)
+						{ ?>
+							<tr>
+								<td><?php echo $last.", ".$first; ?> </td>
+								<td>
+									<button name="delete">Delete</button>
+								</td>
+							</tr>
+						
+						<?php	}
+						?>
+			</tbody>
+		</table>
+	</body>
+</html>
